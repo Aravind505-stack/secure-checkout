@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure One-Step Checkout</title>
+
+      <!-- Canonical Link -->
+      <link rel="canonical" href="https://www.example.com/examlab-checkout.html">
+
+    <!-- Meta tags for SEO -->
+    <meta name="description" content="Secure one-step checkout process with ExamLabs. Purchase and access your product immediately. Limited time offer with 10% off using code EXAMSTART.">
+    <meta name="keywords" content="one-step checkout, secure checkout, ExamLabs, exam preparation, discount, limited time offer">
+    <meta name="author" content="Your Name or Your Company">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.example.com/examlab-checkout.html">
+    <meta property="og:title" content="Secure One-Step Checkout">
+    <meta property="og:description" content="Secure one-step checkout process with ExamLabs. Purchase and access your product immediately. Limited time offer with 10% off using code EXAMSTART.">
+    <meta property="og:image" content="https://www.example.com/images/checkout.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.example.com/examlab-checkout.html">
+    <meta property="twitter:title" content="Secure One-Step Checkout">
+    <meta property="twitter:description" content="Secure one-step checkout process with ExamLabs. Purchase and access your product immediately. Limited time offer with 10% off using code EXAMSTART.">
+    <meta property="twitter:image" content="https://www.example.com/images/checkout.jpg">
+
+    <link rel="stylesheet" href="home.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Exam<span style="color: #5c53c9;">Labs</span></h1>
+            <nav>
+                <a href="#" class="home-link">Home</a> &gt; <a href="#" class="checkout-link">Checkout</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <h2>Secure One-Step Checkout</h2>
+        <p>Your Product Will Become Available Immediately After Purchase</p>
+        <div class="banner">
+            <span class="limited-offer"><img src="clock.png" class="limited-icon" alt="Clock Icon" style="vertical-align: middle;"> LIMITED TIME OFFER</span>
+            <span class="banner-span">Ends in <span id="timer">01:50:00</span></span>
+            <span class="offer-details"><strong>GET 10% OFF</strong> Use Code: <strong>EXAMSTART</strong></span>
+        </div>
+
+        <div class="content-wrapper">
+            <section class="order-review">
+                <div class="table-wrapper">
+                    <h3>Review your order</h3>
+                    <p>The Following items have been added to your shipping cart</p>
+
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Product Description</th>
+                                <th>Price</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>
+                                    <span>Microsoft 62-193 Premium Bundle</span><br /><br />
+                                    Premium File <br />
+                                    Training Course<br /><br />
+                                    <label for="subscription-duration">Get New Question Updates for:</label><br />
+                                    <select id="subscription-duration" class="subscription-duration">
+                                        <option value="30">30 Days Free</option>
+                                        <option value="60">60 Days - $18</option>
+                                        <option value="90">90 Days - $25</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <span class="original-price">$54.99</span>
+                                    <strong>$49.49</strong> <br /><br />
+                                    <span class="discount">Saved 10% Off</span>
+                                </td>
+                                <td class="discount-button"><button onclick="removeItem(this)">Remove</button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <section class="additional-info">
+                <div class="info-box">
+                    <div class="satisfaction-guarantee-div">
+                        <img src="images.png" alt="true-icon">
+                        <div>
+                            <h3 class="alert-heading">Satisfaction Guaranteed</h3>
+                            <p>98.4% Pass Rate</p>
+                        </div>
+                    </div>
+                    <p>Our team works hard to provide students with high exam practice test questions and compelling learning experiences.</p>
+                </div>
+                <div class="info-box customers-div">
+                    <h3>Why choose Exam-Labs?</h3>
+                    <p>Over <span>503,150</span> </p>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <script src="home.js"></script>
+</body>
+
+</html>
